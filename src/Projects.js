@@ -12,7 +12,7 @@ function Projects() {
 
       <div className="about-body-div">
       <span className="about-span">
-          <h1 className="about-h1">Projects</h1> <h3></h3>
+          <h1 className="about-h1">Projects</h1>
         </span>
 
         <div className="about-line"></div>

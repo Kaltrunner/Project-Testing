@@ -1,16 +1,15 @@
-import Clock from "./Clock";
+// import Clock from "./Clock";
 
 function Extra() {
     return (
         <div className="extra-body-div" >
-            <div className="txt-div" >
-            {/* <p class="marquee" ><span>AGREENSQUAREPROJECT.</span></p> */}
+            {/* <div className="txt-div" >
             <p class="marquee" ><span><Clock /></span></p>
             <p class="marquee marquee2" ><span><Clock /></span></p>
             <p class="marquee marquee3" ><span><Clock /></span></p>
             <p class="marquee marquee4" ><span><Clock /></span></p>
                 
-            </div>
+            </div> */}
 
             <div className="extra-stuff-div" >
             <p className="palette-text" >color palette / </p><br/>
@@ -30,6 +29,9 @@ function Extra() {
                 <div className="outer" id="outer-white" >
                     <div className="inner" id="white" ></div>
                 </div>
+            </div>
+            <div className="fonts-div" >
+                <p className="fonts-div-text" >fonts used: </p>
             </div>
 
         </div>

@@ -5,6 +5,7 @@ import Extra from "./Extra";
 import Footer from "./Footer";
 import Random from "./Random";
 import ScrollButton from './ScrollButton';
+import LandingClock from "./Landing-Clock";
 
 
 function Landing() {
@@ -12,8 +13,9 @@ function Landing() {
     <div className="landing-div-body">
       <Heading />
       <div className="landing-text-div" id="under-line-div">
+      <LandingClock />
         <h1 className="title" id="under-line">
-          a Portfolio
+          Erik Russell
         </h1>
 
         <div className="else-link" >

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Clock() {
+function LandingClock() {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -27,22 +27,24 @@ function Clock() {
 
 
   const formattedTime = () => {
+    let y = time.getFullYear();
     let month = months[time.getMonth()];
     let d = time.getDate();
-    let h = time.getHours();
-    let m = time.getMinutes();
-    let s = time.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    return   month + " " + d + " - " +  h + ":" + m + ":" + s ;
+    
+    // let h = time.getHours();
+    // let m = time.getMinutes();
+    // let s = time.getSeconds();
+    // m = checkTime(m);
+    // s = checkTime(s);
+    return   month + " " + d + " , " + y;
   }
 
-  const checkTime = (i) => {
-    if (i < 10) { i = "0" + i };
-    return i;
-  }
+//   const checkTime = (i) => {
+//     if (i < 10) { i = "0" + i };
+//     return i;
+//   }
 
-  return <div id="txt">{formattedTime()}</div>;
+  return <div id="landing-txt">{formattedTime()}</div>;
 }
 
-export default Clock;
+export default LandingClock;
