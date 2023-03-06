@@ -263,7 +263,7 @@ h1 {
 }
 
 .title {
-  font-family: 'Playfair Display SC', serif;
+  /* font-family: 'Playfair Display SC', serif; */
   font-size: 56px;
   padding: .5rem;
   text-align: center;
@@ -385,7 +385,7 @@ h1 {
 }
 .link {
   color: #101820;
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px;
   text-align: end;
   cursor: default;
@@ -408,7 +408,7 @@ h1 {
 }
 
 .sample-p {
-  font-size: 18px;
+  font-size: 20px;
   padding: 0;
 }
 
@@ -635,7 +635,7 @@ h1 {
 }
 
 .copy {
-  font-size: 10px;
+  font-size: 12px;
   padding: 4px;
   line-height: 12px;
   cursor: default;
