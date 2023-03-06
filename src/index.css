@@ -290,7 +290,7 @@ h1 {
 #under-line::before {
   content: '';
   position: absolute;
-  width: 768px;
+  width: 920px;
   height: 3px;
   background-color: #101820;
   bottom: 0;
