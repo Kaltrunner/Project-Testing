@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import Landing from "./Landing";
 import MenuHeader from "./Menu-Header";
 import About from "./About";
+import Projects from "./Projects";
 import WorkBody from "./WorkBody";
 import Samples from "./Samples";
 import Extra from "./Extra";
@@ -25,6 +26,7 @@ function App() {
       <Route path="/Menu" element={<Menu />} />
       <Route path="/MenuHeader" element={<MenuHeader />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Projects" element={<Projects />} />
       <Route path="/WorkBody" element={<WorkBody />} />
       <Route path="/Samples" element={<Samples />} />
       <Route path="/Extra" element={<Extra />} />

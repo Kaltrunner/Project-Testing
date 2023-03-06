@@ -177,6 +177,10 @@ h1 {
 
 /* About Styles */
 
+.about-div {
+  margin: 5rem;
+}
+
 .about-button-back {
   margin:1rem;
   padding: .75em;
@@ -184,7 +188,7 @@ h1 {
   color: #101820;
   font-size: 18px;
   font-family: 'Questrial', sans-serif;
-  background-color: #dfdfdf;
+  background-color: whitesmoke;;
   border: 1px solid whitesmoke;
 }
 .about-button-back:hover {
@@ -231,6 +235,18 @@ h1 {
   background-color: #101820;
 }
 
+.about-p-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Projects Styles */
+
+.projects-body-div {
+  margin: 5rem;
+}
+
+
 /* Landing Styles */
 
 .landing-div-body {
@@ -247,6 +263,7 @@ h1 {
 }
 
 .title {
+  font-family: 'Playfair Display SC', serif;
   font-size: 56px;
   padding: .5rem;
   text-align: center;
