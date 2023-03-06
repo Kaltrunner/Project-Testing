@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Questrial&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Questrial&family=Roboto&display=swap');
+
 html {
   --scrollbarBG: #dfdfdf;
   --thumbBG: #FFE81F;
@@ -142,7 +146,7 @@ h1 {
   justify-content: space-between;
   flex-direction: row-reverse;
   background-color: whitesmoke;
-  z-index: 10;
+  z-index: 999;
   width: 100%;
   height: 5rem;
   top: 0;
@@ -267,7 +271,7 @@ h1 {
 #under-line::before {
   content: '';
   position: absolute;
-  width: 558px;
+  width: 376px;
   height: 3px;
   background-color: #101820;
   bottom: 0;
@@ -364,7 +368,7 @@ h1 {
 }
 .link {
   color: #101820;
-  font-size: 12px;
+  font-size: 16px;
   padding: 20px;
   text-align: end;
   cursor: default;
@@ -386,7 +390,13 @@ h1 {
   cursor: default;
 }
 
+.sample-p {
+  font-size: 18px;
+  padding: 0;
+}
+
 .sample-h1 {
+  margin: 0;
   margin-bottom: 2rem;
   padding: 0;
 }
@@ -399,6 +409,11 @@ h1 {
   flex-wrap: wrap;
   margin: 0 auto;
   /* overflow: hidden; */
+}
+
+.sample-work-div a {
+  text-decoration: none;
+  cursor: default;
 }
 
 .sample-work-example {
@@ -422,6 +437,15 @@ h1 {
   opacity: 60%;
   cursor: pointer;
   transition: all .15s ease-in-out;
+}
+
+.project-1-text {
+  text-decoration: none;
+  text-align: center;
+  color: #101820;
+  font-weight: 900;
+  font-size: 16px;
+  margin: 1rem;
 }
 
 

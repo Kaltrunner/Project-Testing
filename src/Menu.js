@@ -19,7 +19,7 @@ function Menu() {
 
             <a className="menu-links" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/"><p className="about-text" >Linkedin</p></a>
 
-            <Link className="menu-links" target="blank" rel="noreferrer" to="/samples" ><p className="about-text" >Projects</p></Link>
+            <Link className="menu-links" target="blank" rel="noreferrer" to="" ><p className="about-text" >Projects</p></Link>
 
             {/* <a className="menu-links" target="_blank" rel="noreferrer" href="https://www.instagram.com/russellerik/?hl=en" ><p className="about-text" >Instagram</p></a> */}
 
