@@ -86,16 +86,19 @@ h1 {
 }
 
 .menu-span {
-  padding-top: 2rem;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-text {
   font-size: 46px;
-  font-weight: bold;
   cursor: pointer;
-  width: 224px;
-  margin: 30px;
-  padding: 4px 8px;
+  /* width: 224px; */
+  /* margin: 30px; */
+  padding: 0 12px;
   border: 1px dotted whitesmoke;
 }
 .about-text:hover {
@@ -110,7 +113,6 @@ h1 {
 
 .about-text-hidden {
   font-size: 46px;
-  font-weight: bold;
   cursor: pointer;
   width: 524px;
   margin: 30px;
@@ -143,7 +145,7 @@ h1 {
   justify-content: space-between;
   flex-direction: row-reverse;
   background-color: whitesmoke;
-  z-index: 999;
+  z-index: 990;
   width: 100%;
   height: 5rem;
   top: 0;
@@ -242,6 +244,23 @@ h1 {
 .projects-body-div {
   margin: 5rem;
 }
+
+
+#project-h1-div {
+  position: fixed;
+  background-color: whitesmoke;
+  z-index: 999;
+  width: 80%;
+  height: 5rem;
+  padding-top: 3rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 
 /* Laning-clock Styles */
 
@@ -425,8 +444,8 @@ h1 {
 
 .samples-body-div {
   width: 90%;
-  height: 45rem;
-  margin: 6px  auto;
+  height: 38rem;
+  margin: 2rem  auto;
   border: 1px dotted #101820;
   border-radius: 4px;
   overflow: auto;
@@ -463,19 +482,20 @@ h1 {
 }
 
 .sample-work-example {
-  width: 300px;
-  height: 200px;
+  width: 700px;
+  height: 500px;
   margin: 10px;
-  border-radius: 4px;
-  border-top-left-radius: 18px;
-  border: 1px solid #101820;
+  border-radius: 64px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 3px solid #101820;
   background-color: #101820;
   overflow: hidden;
 }
 
 .project-1 {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   transition: all .15s ease-in-out;
 }
 .project-1:hover {
@@ -489,9 +509,13 @@ h1 {
   text-decoration: none;
   text-align: center;
   color: #101820;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 16px;
-  margin: 1rem;
+  margin: 0 auto;
+}
+
+#a-div a {
+  text-decoration: none;
 }
 
 /* Extra Styles */
@@ -691,6 +715,46 @@ h1 {
 
 /* Extra Styles */
 
+ /* Loading Styles */
 
+ .loading-body-div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
 
+.loading-text {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 6px;
+}
 
+.loading{
+  margin: 0 auto;
+  width: 600px;
+}
+.loading .color{
+  background-color: black;
+  height: 6px;
+  border-radius: 2px;
+  animation: progres 4s infinite linear;   
+  margin: 0; 
+}
+@keyframes progres{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 35%;
+  }
+  50%{
+      width: 60%;
+  }
+  75%{
+      width: 75%;
+  }
+  100%{
+      width: 100%;
+  }
+};

@@ -6,7 +6,7 @@ function About() {
     <div className="about-div">
 
       <div className="menu-header-div-body">
-        <Link to="/Menu">
+        <Link to="/">
           <button className="menu-header-button">X</button>
         </Link>
       </div>

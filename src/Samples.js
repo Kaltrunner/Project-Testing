@@ -22,13 +22,13 @@ function Samples() {
                     <img className="project-1" src="Screenshot 2023-02-21 at 12.14.33 PM.png" alt=""/>
                 </div><p className="project-1-text" >Snake Pit</p></a>
 
-                <a target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner/design-system-sid.github.io" > <div className="sample-work-example" >
+                {/* <a target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner/design-system-sid.github.io" > <div className="sample-work-example" >
                     <img className="project-1" src="Screenshot 2023-03-02 at 12.27.12 PM (2).png" alt=""/>
                 </div></a>
 
                 <div className="sample-work-example" >
                     <img className="project-1" src="Screenshot 2023-02-21 at 12.11.01 PM.png" alt=""/>
-                </div>
+                </div> */}
 
                 {/* <div className="sample-work-example" ></div>
 

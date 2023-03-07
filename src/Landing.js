@@ -1,16 +1,20 @@
 import Heading from "./Heading";
 import WorkBody from "./WorkBody";
-import Samples from "./Samples";
+// import Samples from "./Samples";
 import Extra from "./Extra";
 import Footer from "./Footer";
-import Random from "./Random";
+// import Random from "./Random";
 import ScrollButton from './ScrollButton';
 import LandingClock from "./Landing-Clock";
+import Menu from "./Menu";
 
 
 function Landing() {
+
   return (
     <div className="landing-div-body">
+
+
       <Heading />
       <div className="landing-text-div" id="under-line-div">
       <LandingClock />
@@ -24,8 +28,9 @@ function Landing() {
         </div>
       </div>
       <WorkBody />
-      <Random />
-      <Samples />
+      {/* <Random /> */}
+      {/* <Samples /> */}
+      <Menu />
       <Extra />
       <Footer />
       <ScrollButton />

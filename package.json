@@ -12,6 +12,7 @@
     "react-mailto": "^0.4.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-scroll-motion": "^0.3.2",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
