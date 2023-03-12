@@ -19,7 +19,7 @@ function About() {
 
       <div className="about-body-div">
         <span className="about-span">
-          <h1 className="about-h1">Erik Russell</h1> <h3>Softwear Engineer</h3>
+          <h1 className="about-h1">Erik Russell</h1> <h3 className="h3" >Softwear Engineer</h3>
         </span>
 
         <div className="about-line"></div>
