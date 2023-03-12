@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ScrollButton from './ScrollButton';
 
 
 import {
@@ -94,9 +95,9 @@ function Projects() {
         <ScrollPage className="scroll-page" page={5}>
           <Animator animation={moveinleft} >
             <div id="a-div" >
-            <div className="sample-work-example" >
-                    <img className="project-1" src="Screenshot 2023-02-21 at 12.11.01 PM.png" alt=""/>
-                </div><p className="project-1-text" >Optical Lie</p>
+            <a target="_blank" rel="noreferrer" href="https://optical-lie.onrender.com/" > <div className="sample-work-example" >
+                    <img className="project-1" src="chrome-capture-2023-2-8.gif" alt=""/>
+                </div><p className="project-1-text" >Optical Lie</p></a>
             </div>
           </Animator>
         </ScrollPage>
@@ -118,6 +119,7 @@ function Projects() {
         </ScrollPage>
 
       </ScrollContainer>
+      <ScrollButton />
     </div>
   );
 }

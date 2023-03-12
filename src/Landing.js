@@ -1,4 +1,4 @@
-import Heading from "./Heading";
+// import Heading from "./Heading";
 import WorkBody from "./WorkBody";
 // import Samples from "./Samples";
 import Extra from "./Extra";
@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import ScrollButton from './ScrollButton';
 import LandingClock from "./Landing-Clock";
 import Menu from "./Menu";
+import { ScrollToTop } from 'react-router-scroll-to-top';
 
 
 function Landing() {
@@ -15,7 +16,7 @@ function Landing() {
     <div className="landing-div-body">
 
 
-      <Heading />
+      {/* <Heading /> */}
       <div className="landing-text-div" id="under-line-div">
       <LandingClock />
         <h1 className="title" id="under-line">
@@ -34,6 +35,7 @@ function Landing() {
       <Extra />
       <Footer />
       <ScrollButton />
+      < ScrollToTop />
     </div>
   );
 }
