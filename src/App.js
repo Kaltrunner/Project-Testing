@@ -1,5 +1,5 @@
 import {Routes, Route} from "react-router-dom";
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import "./index.css";
 import Heading from "./Heading";
 import Menu from "./Menu";
@@ -22,23 +22,23 @@ import ScrollButton from './ScrollButton';
 
 function App() {
 
-  useEffect(() => {
-    const handleLoad = () => {
-      if (document.readyState !== "complete") {
-        document.querySelector("body").style.visibility = "hidden";
-        document.querySelector("<Loading />").style.visibility = "visible";
-      } else {
-        document.querySelector("<Loading />").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
-      }
-    };
+  // useEffect(() => {
+  //   const handleLoad = () => {
+  //     if (document.readyState !== "complete") {
+  //       document.querySelector("body").style.visibility = "hidden";
+  //       document.querySelector("<Loading />").style.visibility = "visible";
+  //     } else {
+  //       document.querySelector("<Loading />").style.display = "none";
+  //       document.querySelector("body").style.visibility = "visible";
+  //     }
+  //   };
     
-    window.addEventListener("load", handleLoad);
+  //   window.addEventListener("load", handleLoad);
 
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("load", handleLoad);
+  //   };
+  // }, []);
 
   return (
   
