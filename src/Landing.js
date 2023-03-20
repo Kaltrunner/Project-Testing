@@ -1,5 +1,5 @@
 // import Heading from "./Heading";
-import WorkBody from "./WorkBody";
+// import WorkBody from "./WorkBody";
 // import Samples from "./Samples";
 import Extra from "./Extra";
 import Footer from "./Footer";
@@ -27,8 +27,10 @@ function Landing() {
         <img className="bio-pic" src="image1.jpeg" alt=""></img>
           <p className="undertext">Software Engineer</p>
         </div>
+        
       </div>
-      <WorkBody />
+      
+      {/* <WorkBody /> */}
       {/* <Random /> */}
       {/* <Samples /> */}
       <Menu />

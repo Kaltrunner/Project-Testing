@@ -377,7 +377,7 @@ h1 {
   content: '';
   position: absolute;
   width: 920px;
-  height: 3px;
+  height: 4px;
   bottom: 0;
   left: auto;
   transform-origin: left;
