@@ -1,16 +1,6 @@
-// import Clock from "./Clock";
-
 function Extra() {
   return (
     <div className="extra-body-div">
-      {/* <div className="txt-div" >
-            <p class="marquee" ><span><Clock /></span></p>
-            <p class="marquee marquee2" ><span><Clock /></span></p>
-            <p class="marquee marquee3" ><span><Clock /></span></p>
-            <p class="marquee marquee4" ><span><Clock /></span></p>
-                
-            </div> */}
-
       <div className="extra-line"></div>
 
       <div className="extra-stuff-div">

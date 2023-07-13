@@ -4,6 +4,7 @@
 import Extra from "./Extra";
 import Footer from "./Footer";
 // import Random from "./Random";
+import Card from "./Card";
 import ScrollButton from './ScrollButton';
 import LandingClock from "./Landing-Clock";
 import Menu from "./Menu";
@@ -29,7 +30,7 @@ function Landing() {
         </div>
         
       </div>
-      
+      <Card />
       {/* <WorkBody /> */}
       {/* <Random /> */}
       {/* <Samples /> */}

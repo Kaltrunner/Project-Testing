@@ -1,5 +1,4 @@
-import {Routes, Route} from "react-router-dom";
-// import React, { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./index.css";
 import Heading from "./Heading";
 import Menu from "./Menu";
@@ -13,37 +12,11 @@ import Extra from "./Extra";
 import Footer from "./Footer";
 import Random from "./Random";
 import Loading from "./Loading";
-// import Clock from "./Clock";
-
-import ScrollButton from './ScrollButton';
-// import { Button } from '.Styles';
-
-
+import ScrollButton from "./ScrollButton";
 
 function App() {
-
-  // useEffect(() => {
-  //   const handleLoad = () => {
-  //     if (document.readyState !== "complete") {
-  //       document.querySelector("body").style.visibility = "hidden";
-  //       document.querySelector("<Loading />").style.visibility = "visible";
-  //     } else {
-  //       document.querySelector("<Loading />").style.display = "none";
-  //       document.querySelector("body").style.visibility = "visible";
-  //     }
-  //   };
-    
-  //   window.addEventListener("load", handleLoad);
-
-  //   return () => {
-  //     window.removeEventListener("load", handleLoad);
-  //   };
-  // }, []);
-
   return (
-  
     <Routes>
-      
       <Route path="/" element={<Landing />} />
       <Route path="/Loading" element={<Loading />} />
       <Route path="/Heading" element={<Heading />} />
@@ -57,9 +30,6 @@ function App() {
       <Route path="/Footer" element={<Footer />} />
       <Route path="/Random" element={<Random />} />
       <Route path="/ScrollButton" element={<ScrollButton />} />
-
-      {/* <Route path="/Clock" element={<Clock />} /> */}
-
     </Routes>
   );
 }

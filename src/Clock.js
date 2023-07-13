@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Clock() {
   const [time, setTime] = useState(new Date());
@@ -10,7 +10,7 @@ function Clock() {
     return () => clearInterval(intervalId);
   }, []);
 
-    let months = [
+  let months = [
     "January",
     "February",
     "March",
@@ -25,7 +25,6 @@ function Clock() {
     "December",
   ];
 
-
   const formattedTime = () => {
     let month = months[time.getMonth()];
     let d = time.getDate();
@@ -34,13 +33,15 @@ function Clock() {
     let s = time.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    return   month + " " + d + " - " +  h + ":" + m + ":" + s ;
-  }
+    return month + " " + d + " - " + h + ":" + m + ":" + s;
+  };
 
   const checkTime = (i) => {
-    if (i < 10) { i = "0" + i };
+    if (i < 10) {
+      i = "0" + i;
+    }
     return i;
-  }
+  };
 
   return <div id="txt">{formattedTime()}</div>;
 }

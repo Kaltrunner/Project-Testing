@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ScrollToTop } from 'react-router-scroll-to-top';
+import { ScrollToTop } from "react-router-scroll-to-top";
 
 function About() {
   return (
@@ -10,29 +10,20 @@ function About() {
         </Link>
       </div>
 
-      {/* <Link to="/Menu">
-        <button className="about-button-back">back</button>
-      </Link>
-      <Link to="/">
-        <button className="about-button-home">home</button>
-      </Link> */}
-
       <div className="about-body-div">
         <span className="about-span">
-          <h1 className="about-h1">Erik Russell</h1> <h3 className="h3" >Softwear Engineer</h3>
+          <h1 className="about-h1">Erik Russell</h1>{" "}
+          <h3 className="h3">Softwear Engineer</h3>
         </span>
 
         <div className="about-line"></div>
 
-        
-
         <div className="about-p-text">
-
-        <div className="about-img-div" >
+          <div className="about-img-div">
             <img id="about-img" src="../image0.jpeg" alt="Erik Russell" />
           </div>
-          
-          <p id="p-1" >
+
+          <p id="p-1">
             I am a passionate software engineer with a strong track record of
             delivering top-notch software solutions.
             <br />
@@ -42,8 +33,10 @@ function About() {
             projects.
             <br /> Currently, I'm working on front-end leaking projects that
             help improve user experience and engagement.
-            <br /></p>
-            <p id="p-2" >My technical skill set includes proficiency in various programming
+            <br />
+          </p>
+          <p id="p-2">
+            My technical skill set includes proficiency in various programming
             languages such as HTML, CSS, JavaScript, React and Rails.
             <br /> Additionally, I have experience working with databases, cloud
             computing, and DevOps.
@@ -69,7 +62,7 @@ function About() {
           </p>
         </div>
       </div>
-      < ScrollToTop />
+      <ScrollToTop />
     </div>
   );
 }
