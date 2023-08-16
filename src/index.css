@@ -31,6 +31,12 @@ body::-webkit-scrollbar-thumb {
   background-color: #F8C8DC;
 }
 
+[contentEditable="true"]:focus {
+  border:none;
+  outline:none;
+}
+
+
 
 /* Heading Styles */
 
@@ -88,15 +94,15 @@ h1 {
 .menu-span {
   padding: 0;
   margin: 0;
-  width: 60%;
+  /* width: 60%; */
   display: flex;
   flex-wrap: wrap;
 }
 
 .about-text {
-  font-size: 46px;
+  font-size: 4vw;
   cursor: pointer;
-  padding: 0 12px;
+  margin-left: 2rem;
   border: 1px dotted whitesmoke;
 }
 .about-text:hover {
@@ -255,12 +261,7 @@ h1 {
 }
 
 .about-img-div {
-  /* width: 100%; */
   height: 100%;
-  /* background-image: url("../public/image0.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 0 6px 2px grey;
@@ -286,21 +287,6 @@ h1 {
   transform: scale(1.10);
 }
 
-/* .about-img {
-  width: 100%;
-  height: 100%;
-  background-image: url("../public/image0.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.about-img:hover {
-  cursor: pointer;
-  width: 110%;
-  height: 110%;
-  overflow: hidden;
-  
-} */
 
 /* Projects Styles */
 
@@ -352,11 +338,10 @@ h1 {
 }
 
 .title {
-  font-size: 156px;
+  font-size: 10vw;
   font-family: 'Questrial', sans-serif;
-  padding: 4rem;
   text-align: center;
-  margin: 0;
+  margin: 4vw auto;
   cursor: default;
   letter-spacing: 12px;
 }
@@ -366,17 +351,34 @@ h1 {
   text-align: center;
 }
 
+.hidden-span {
+  display: none;
+}
+
+.hidden-a {
+  text-decoration: none;
+  color: #101820;
+  cursor: default !important;
+}
+
+.hidden-a:hover .hidden-span {
+  display: block;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+}
+
 #under-line {
   color: #101820;
   position: relative;
   text-decoration: none;
   text-align: center;
-  line-height: 20px;
+  line-height: relative;
 }
 #under-line::before {
   content: '';
   position: absolute;
-  width: 920px;
+  width: 60vw;
   height: 4px;
   bottom: 0;
   left: auto;
